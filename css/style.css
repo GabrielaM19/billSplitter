@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.wrapper {
+    width: 600px;
+    background-color: #fff;
+    box-shadow: 0 0 10px #000;
+}
+
+.header {
+    height: 200px;
+    color: #fff;
+    background-color: rgb(63, 97, 209);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-transform: uppercase;
+}
+
+.header p {
+    margin-top: 10px;
+}
+
+.bill {
+    color: rgb(156, 240, 160);
+}
+
+.content {
+    padding: 40px 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+input, select {
+    width: 100%;
+    margin-bottom: 25px;
+    padding: 8px 10px;
+    border-radius: 5px;
+    border: 3px solid rgb(204, 204, 204);
+}
+
+.count {
+    width: 60%;
+    display: block;
+    margin: 20px auto;
+    padding: 20px 10px;
+    font-size: 24px;
+    border-radius: 8px;
+    color: #fff;
+    background-color: rgb(63, 97, 209);
+    border: none;
+    cursor: pointer;
+    transition: background-color .3s;
+}
+
+.count:hover {
+    background-color: rgb(50, 76, 163);
+}
+
+.cost-info {
+    display: none;
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.cost {
+    font-weight: bold;
+}
+
+.error {
+    font-size: 18px;
+    color: rgb(221, 51, 51);
+    text-align: center;
+}
+
