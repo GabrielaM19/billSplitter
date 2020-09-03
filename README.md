@@ -1,2 +1,6 @@
 # billSplitter
-Application for splitting a tip between a group of people written in JavaScript.
+Application for splitting a tip between group of people written in JavaScript.
+
+Screenshot of running application :
+
+![](billSplitterScreenshot.PNG)
